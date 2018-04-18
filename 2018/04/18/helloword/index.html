@@ -1,0 +1,1176 @@
+<!doctype html>
+
+
+
+  
+
+
+<html class="theme-next mist use-motion" lang="">
+<head>
+  <meta charset="UTF-8"/>
+<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1"/>
+
+
+
+<meta http-equiv="Cache-Control" content="no-transform" />
+<meta http-equiv="Cache-Control" content="no-siteapp" />
+
+
+
+
+
+
+
+
+
+
+
+
+  
+  
+    
+  
+  <link href="//cdn.jsdelivr.net/fancybox/2.1.5/jquery.fancybox.min.css" rel="stylesheet" type="text/css" />
+
+
+
+
+  
+  
+  
+  
+
+  
+    
+    
+  
+
+  
+    
+      
+    
+
+    
+  
+
+  
+
+  
+    
+      
+    
+
+    
+  
+
+  
+    
+      
+    
+
+    
+  
+
+  
+    
+    
+    <link href="//fonts.googleapis.com/css?family=Monda:300,300italic,400,400italic,700,700italic|Roboto Slab:300,300italic,400,400italic,700,700italic|Lobster Two:300,300italic,400,400italic,700,700italic|consolas:300,300italic,400,400italic,700,700italic&subset=latin,latin-ext" rel="stylesheet" type="text/css">
+  
+
+
+
+
+
+
+  
+
+<link href="//maxcdn.bootstrapcdn.com/font-awesome/4.6.2/css/font-awesome.min.css" rel="stylesheet" type="text/css" />
+
+<link href="/css/main.css?v=5.1.0" rel="stylesheet" type="text/css" />
+
+
+  <meta name="keywords" content="EZLippi" />
+
+
+
+
+  
+
+
+  <link rel="alternate" href="/atom.xml" title="黎永渝的个人博客" type="application/atom+xml" />
+
+
+
+
+  <link rel="shortcut icon" type="image/x-icon" href="/favicon.ico?v=5.1.0" />
+
+
+
+
+
+
+<meta name="description" content="Python_Learning自学Python资料整理 自学 Python资源大全中文版，包括：Web框架、网络爬虫、模板引擎、数据库、数据可视化、图片处理等，由伯乐在线持续更新。 Python的基础练习代码与各种爬虫代码 Python爬虫学习手册 Python系列 - 收藏集 - 掘金 廖雪峰Python教程  开发工具 Pycharm(小白上手学习用)——用Pycharm写相应脚本和程序包的开">
+<meta property="og:type" content="article">
+<meta property="og:title" content="黎永渝的个人博客">
+<meta property="og:url" content="http://yoursite.com/2018/04/18/helloword/index.html">
+<meta property="og:site_name" content="黎永渝的个人博客">
+<meta property="og:description" content="Python_Learning自学Python资料整理 自学 Python资源大全中文版，包括：Web框架、网络爬虫、模板引擎、数据库、数据可视化、图片处理等，由伯乐在线持续更新。 Python的基础练习代码与各种爬虫代码 Python爬虫学习手册 Python系列 - 收藏集 - 掘金 廖雪峰Python教程  开发工具 Pycharm(小白上手学习用)——用Pycharm写相应脚本和程序包的开">
+<meta property="og:locale" content="default">
+<meta property="og:image" content="https://img-blog.csdn.net/20130515113723855">
+<meta property="og:updated_time" content="2018-04-18T11:15:47.000Z">
+<meta name="twitter:card" content="summary">
+<meta name="twitter:title" content="黎永渝的个人博客">
+<meta name="twitter:description" content="Python_Learning自学Python资料整理 自学 Python资源大全中文版，包括：Web框架、网络爬虫、模板引擎、数据库、数据可视化、图片处理等，由伯乐在线持续更新。 Python的基础练习代码与各种爬虫代码 Python爬虫学习手册 Python系列 - 收藏集 - 掘金 廖雪峰Python教程  开发工具 Pycharm(小白上手学习用)——用Pycharm写相应脚本和程序包的开">
+<meta name="twitter:image" content="https://img-blog.csdn.net/20130515113723855">
+
+
+
+<script type="text/javascript" id="hexo.configurations">
+  var NexT = window.NexT || {};
+  var CONFIG = {
+    root: '/',
+    scheme: 'Mist',
+    sidebar: {"position":"right","display":"post"},
+    fancybox: true,
+    motion: true,
+    duoshuo: {
+      userId: 'undefined',
+      author: 'Author'
+    },
+    algolia: {
+      applicationID: '',
+      apiKey: '',
+      indexName: '',
+      hits: {"per_page":10},
+      labels: {"input_placeholder":"Search for Posts","hits_empty":"We didn't find any results for the search: ${query}","hits_stats":"${hits} results found in ${time} ms"}
+    }
+  };
+</script>
+
+
+
+  <link rel="canonical" href="http://yoursite.com/2018/04/18/helloword/"/>
+
+
+
+
+
+<script src="//cdn.bootcss.com/pace/1.0.2/pace.min.js"></script>
+<link href="//cdn.bootcss.com/pace/1.0.2/themes/pink/pace-theme-flash.css" rel="stylesheet">
+<style>
+    .pace .pace-progress {
+        background: #1E92FB; /*进度条颜色*/
+        height: 3px;
+    }
+    .pace .pace-progress-inner {
+         box-shadow: 0 0 10px #1E92FB, 0 0 5px     #1E92FB; /*阴影颜色*/
+    }
+    .pace .pace-activity {
+        border-top-color: #1E92FB;    /*上边框颜色*/
+        border-left-color: #1E92FB;    /*左边框颜色*/
+    }
+</style>
+
+
+  <title>  | 黎永渝的个人博客 </title>
+</head>
+
+  	 <!-- custom analytics part create by xiamo -->
+<script src="https://cdn1.lncld.net/static/js/av-core-mini-0.6.1.js"></script>
+<script>AV.initialize("kJ2sJuSJeByLioULSXrJ5CSq-9Nh9j0Va", "uBWeNxCbFEWsOVDTmAInrDq3");</script>
+<script>
+function showTime(Counter) {
+	var query = new AV.Query(Counter);
+	$(".leancloud_visitors").each(function() {
+		var url = $(this).attr("id").trim();
+		query.equalTo("url", url);
+		query.find({
+			success: function(results) {
+				if (results.length == 0) {
+					var content = $(document.getElementById(url)).text() + ': 0';
+					$(document.getElementById(url)).text(content);
+					return;
+				}
+				for (var i = 0; i < results.length; i++) {
+					var object = results[i];
+					var content = $(document.getElementById(url)).text() + ': ' + object.get('time');
+					$(document.getElementById(url)).text(content);
+				}
+			},
+			error: function(object, error) {
+				console.log("Error: " + error.code + " " + error.message);
+			}
+		});
+
+	});
+}
+
+function addCount(Counter) {
+	var Counter = AV.Object.extend("Counter");
+	url = $(".leancloud_visitors").attr('id').trim();
+	title = $(".leancloud_visitors").attr('data-flag-title').trim();
+	var query = new AV.Query(Counter);
+	query.equalTo("url", url);
+	query.find({
+		success: function(results) {
+			if (results.length > 0) {
+				var counter = results[0];
+				counter.fetchWhenSave(true);
+				counter.increment("time");
+				counter.save(null, {
+					success: function(counter) {
+						var content = $(document.getElementById(url)).text() + ': ' + counter.get('time');
+						$(document.getElementById(url)).text(content);
+					},
+					error: function(counter, error) {
+						console.log('Failed to save Visitor num, with error message: ' + error.message);
+					}
+				});
+			} else {
+				var newcounter = new Counter();
+				newcounter.set("title", title);
+				newcounter.set("url", url);
+				newcounter.set("time", 1);
+				newcounter.save(null, {
+					success: function(newcounter) {
+					    console.log("newcounter.get('time')="+newcounter.get('time'));
+						var content = $(document.getElementById(url)).text() + ': ' + newcounter.get('time');
+						$(document.getElementById(url)).text(content);
+					},
+					error: function(newcounter, error) {
+						console.log('Failed to create');
+					}
+				});
+			}
+		},
+		error: function(error) {
+			console.log('Error:' + error.code + " " + error.message);
+		}
+	});
+}
+$(function() {
+	var Counter = AV.Object.extend("Counter");
+	if ($('.leancloud_visitors').length == 1) {
+		addCount(Counter);
+	} else if ($('.post-title-link').length > 1) {
+		showTime(Counter);
+	}
+});
+</script>
+  
+<body itemscope itemtype="http://schema.org/WebPage" lang="default">
+
+  
+
+
+
+  <script type="text/javascript">
+    var _hmt = _hmt || [];
+    (function() {
+      var hm = document.createElement("script");
+      hm.src = "https://hm.baidu.com/hm.js?340874ba9357cbe81570aa4ac1185941";
+      var s = document.getElementsByTagName("script")[0];
+      s.parentNode.insertBefore(hm, s);
+    })();
+  </script>
+
+
+
+
+
+
+
+
+  
+  
+    
+  
+
+  <div class="container one-collumn sidebar-position-right page-post-detail ">
+    <div class="headband"></div>
+
+    <header id="header" class="header" itemscope itemtype="http://schema.org/WPHeader">
+      <div class="header-inner"><div class="site-meta custom-logo">
+  
+
+  <div class="custom-logo-site-title">
+    <a href="/"  class="brand" rel="start">
+      <span class="logo-line-before"><i></i></span>
+      <span class="site-title">黎永渝的个人博客</span>
+      <span class="logo-line-after"><i></i></span>
+    </a>
+  </div>
+    
+      <h1 class="site-subtitle" itemprop="description"></h1>
+    
+</div>
+
+<div class="site-nav-toggle">
+  <button>
+    <span class="btn-bar"></span>
+    <span class="btn-bar"></span>
+    <span class="btn-bar"></span>
+  </button>
+</div>
+
+<nav class="site-nav">
+  
+
+  
+    <ul id="menu" class="menu">
+      
+        
+        <li class="menu-item menu-item-home">
+          <a href="/" rel="section">
+            
+              <i class="menu-item-icon fa fa-fw fa-home"></i> <br />
+            
+            Home
+          </a>
+        </li>
+      
+        
+        <li class="menu-item menu-item-categories">
+          <a href="/categories" rel="section">
+            
+              <i class="menu-item-icon fa fa-fw fa-th"></i> <br />
+            
+            Categories
+          </a>
+        </li>
+      
+        
+        <li class="menu-item menu-item-archives">
+          <a href="/archives" rel="section">
+            
+              <i class="menu-item-icon fa fa-fw fa-archive"></i> <br />
+            
+            Archives
+          </a>
+        </li>
+      
+        
+        <li class="menu-item menu-item-tags">
+          <a href="/tags" rel="section">
+            
+              <i class="menu-item-icon fa fa-fw fa-tags"></i> <br />
+            
+            Tags
+          </a>
+        </li>
+      
+        
+        <li class="menu-item menu-item-about">
+          <a href="/about" rel="section">
+            
+              <i class="menu-item-icon fa fa-fw fa-user"></i> <br />
+            
+            About
+          </a>
+        </li>
+      
+
+      
+    </ul>
+  
+
+  
+</nav>
+
+
+
+ </div>
+    </header>
+
+    <main id="main" class="main">
+      <div class="main-inner">
+        <div class="content-wrap">
+          <div id="content" class="content">
+            
+
+  <div id="posts" class="posts-expand">
+    
+
+  
+
+  
+  
+  
+
+  <article class="post post-type-normal " itemscope itemtype="http://schema.org/Article">
+  <link itemprop="mainEntityOfPage" href="http://yoursite.com/2018/04/18/helloword/">
+
+  <span style="display:none" itemprop="author" itemscope itemtype="http://schema.org/Person">
+    <meta itemprop="name" content="Aaron Li">
+    <meta itemprop="description" content="">
+    <meta itemprop="image" content="/images/avatar.gif">
+  </span>
+
+  <span style="display:none" itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
+    <meta itemprop="name" content="黎永渝的个人博客">
+    <span style="display:none" itemprop="logo" itemscope itemtype="http://schema.org/ImageObject">
+      <img style="display:none;" itemprop="url image" alt="黎永渝的个人博客" src="/images/avatar.jpg">
+    </span>
+  </span>
+
+    
+      <header class="post-header">
+
+        
+        
+          <h2 class="post-title" itemprop="name headline">
+            
+            
+              
+                
+              
+            
+          </h2>
+        
+
+        <div class="post-meta">
+          <span class="post-time">
+            
+              <span class="post-meta-item-icon">
+                <i class="fa fa-calendar-o"></i>
+              </span>
+              
+                <span class="post-meta-item-text">Posted on</span>
+              
+              <time title="Post created" itemprop="dateCreated datePublished" datetime="2018-04-18T16:40:57+00:00">
+                2018-04-18
+              </time>
+            
+
+            
+
+            
+          </span>
+
+          
+
+          
+            
+          
+
+          
+		  
+			 
+          
+          
+             <span id="/2018/04/18/helloword/" class="leancloud_visitors" data-flag-title="">
+               <span class="post-meta-divider">|</span>
+               <span class="post-meta-item-icon">
+                 <i class="fa fa-eye"></i>
+               </span>
+               
+                 <span class="post-meta-item-text">Visitors </span>
+               
+                 <span class="leancloud-visitors-count"></span>
+				 <span>℃</span>
+             </span>
+          
+		   
+          
+
+		  
+            <div class="post-wordcount">
+              
+                <span class="post-meta-item-icon">
+                  <i class="fa fa-file-word-o"></i>
+                </span>
+                
+                  <span class="post-meta-item-text">字数统计</span>
+                
+                <span title="字数统计">
+                  
+                </span>
+              
+
+              
+                <span class="post-meta-divider">|</span>
+              
+
+              
+                <span class="post-meta-item-icon">
+                  <i class="fa fa-clock-o"></i>
+                </span>
+                
+                  <span class="post-meta-item-text">阅读时长</span>
+                
+                <span title="阅读时长">
+                  
+                </span>
+              
+            </div>
+          
+		  
+          
+ 
+        
+
+
+        </div>
+      </header>
+    
+
+
+    <div class="post-body" itemprop="articleBody">
+
+      
+      
+
+      
+        <h1 id="Python-Learning"><a href="#Python-Learning" class="headerlink" title="Python_Learning"></a>Python_Learning</h1><p>自学Python资料整理</p>
+<h2 id="自学"><a href="#自学" class="headerlink" title="自学"></a>自学</h2><ol>
+<li><a href="https://github.com/jobbole/awesome-python-cn" target="_blank" rel="noopener">Python资源大全中文版，包括：Web框架、网络爬虫、模板引擎、数据库、数据可视化、图片处理等，由伯乐在线持续更新。</a></li>
+<li><a href="https://github.com/rieuse/learnPython" target="_blank" rel="noopener">Python的基础练习代码与各种爬虫代码</a></li>
+<li><a href="https://www.jianshu.com/p/047b4dd3f911?from=singlemessage" target="_blank" rel="noopener">Python爬虫学习手册</a></li>
+<li><a href="https://www.jianshu.com/p/9554bcf6ba44" target="_blank" rel="noopener">Python系列 - 收藏集 - 掘金</a></li>
+<li><a href="https://www.liaoxuefeng.com/wiki/0014316089557264a6b348958f449949df42a6d3a2e542c000" target="_blank" rel="noopener">廖雪峰Python教程</a></li>
+</ol>
+<h3 id="开发工具"><a href="#开发工具" class="headerlink" title="开发工具"></a>开发工具</h3><ol>
+<li>Pycharm(小白上手学习用)——用Pycharm写相应脚本和程序包的开发（功能齐全，速度慢）</li>
+<li>包管理必备：Anaconda <a href="https://anaconda.org" target="_blank" rel="noopener">https://anaconda.org</a><blockquote>
+<p>真的要强烈推荐 Anaconda ，它能帮你安装好许多麻烦的东西，包括： Python 环境、pip 包管理工具、常用的库、配置好环境路径等等。这些事情小白自己一个个去做的话，容易遇到各种问题，带来挫败感。如果你想用 Python 搞数据方面的事情，就安装它就好了，它甚至开发了一套 JIT 的解释器 Numba。所以 Anaconda 有了 JIT 之后，对线上科学计算效率要求比较高的东西也可以搞了。</p>
+</blockquote>
+</li>
+<li>前端在线编辑器：CodeSandbox<blockquote>
+<p>不用安装 npm 的几千个包了，它已经在云端完成了，采让你直接就可以上手写代码、看效果。对于 React、Vue 这些主流前端框架都支持。</p>
+</blockquote>
+</li>
+</ol>
+<h3 id="常用库"><a href="#常用库" class="headerlink" title="常用库"></a>常用库</h3><h4 id="标准库"><a href="#标准库" class="headerlink" title="标准库"></a>标准库</h4><ul>
+<li>requests、urllib、urllib2、re</li>
+<li><a href="https://blog.csdn.net/nuli888/article/details/51960217" target="_blank" rel="noopener">https://blog.csdn.net/nuli888/article/details/51960217</a></li>
+<li><a href="https://blog.csdn.net/qiqll/article/details/39339319" target="_blank" rel="noopener">https://blog.csdn.net/qiqll/article/details/39339319</a></li>
+<li><a href="https://www.cnblogs.com/sunshine-1/p/7372906.html" target="_blank" rel="noopener">https://www.cnblogs.com/sunshine-1/p/7372906.html</a></li>
+</ul>
+<h4 id="数据分析"><a href="#数据分析" class="headerlink" title="数据分析"></a>数据分析</h4><ul>
+<li>前期：Numpy &amp; Scipy、Pandas、matplotlib 是 Python 最基本数据分析的三驾马车，而 Jupyter notebook 则是分析的最基本交互式环境。</li>
+<li>后期：可以学习更为强大的工具，如分布式计算 pyspark，机器学习，深度学习，神经网络等等，Python 都能找到成熟的包以供使用。</li>
+</ul>
+<h4 id="网络数据采集"><a href="#网络数据采集" class="headerlink" title="网络数据采集"></a>网络数据采集</h4><ul>
+<li>前期：数据分析离不开数据采集，所以我偶尔也会使用 Python 的标准库 urllib 去网络采集一些简单数据，图快也会使用 requests，beautifulsoup 是非常不错的 html 解析工具。</li>
+<li>后期：学习 Python 爬虫框架 pyspider，scrapy 等，以及分布式爬虫。</li>
+</ul>
+<h4 id="网站开发"><a href="#网站开发" class="headerlink" title="网站开发"></a>网站开发</h4><ul>
+<li>主要使用 django 作为开发框架。</li>
+</ul>
+<h2 id="爬虫项目"><a href="#爬虫项目" class="headerlink" title="爬虫项目"></a>爬虫项目</h2><h3 id="爬虫工具列表"><a href="#爬虫工具列表" class="headerlink" title="爬虫工具列表"></a>爬虫工具列表</h3><p><a href="http://python.jobbole.com/82633/" target="_blank" rel="noopener">Python 爬虫的工具列表</a></p>
+<h3 id="Scrapy爬虫框架"><a href="#Scrapy爬虫框架" class="headerlink" title="Scrapy爬虫框架"></a>Scrapy爬虫框架</h3><ol>
+<li><a href="https://doc.scrapy.org/" target="_blank" rel="noopener">官网</a></li>
+<li><a href="http://scrapy-chs.readthedocs.io/zh_CN/0.24/" target="_blank" rel="noopener">中文文档</a></li>
+<li><a href="http://python.jobbole.com/81332/" target="_blank" rel="noopener">入门</a></li>
+<li><a href="https://blog.csdn.net/sunnyxiaohu/article/details/50787430" target="_blank" rel="noopener">网友整理的学习路径（10步）</a></li>
+</ol>
+<h3 id="正则表达式"><a href="#正则表达式" class="headerlink" title="正则表达式"></a>正则表达式</h3><p><img src="https://img-blog.csdn.net/20130515113723855" alt="正则表达式"></p>
+<h3 id="github练手小项目"><a href="#github练手小项目" class="headerlink" title="github练手小项目"></a>github练手小项目</h3><ol>
+<li><a href="https://github.com/Jack-Cherish/python-spider" target="_blank" rel="noopener">Python3网络爬虫实战：VIP视频破解助手；GEETEST验证码破解；小说、动漫下载；手机APP爬取；财务报表入库；火车票抢票；抖音APP视频下载；百万英雄辅助；网易云音乐批量下载</a></li>
+<li><a href="https://github.com/Andrew-liu/dou_ban_spider" target="_blank" rel="noopener">爬取豆瓣电影排名前100</a></li>
+</ol>
+<h4 id="微博爬虫"><a href="#微博爬虫" class="headerlink" title="微博爬虫"></a>微博爬虫</h4><ul>
+<li>初级<br><a href="https://github.com/dataabc/weiboSpider" target="_blank" rel="noopener">新浪微博爬虫，用python爬取新浪微博数据</a></li>
+<li>高级 <a href="https://github.com/SpiderClub/weibospider" target="_blank" rel="noopener">https://github.com/SpiderClub/weibospider</a></li>
+</ul>
+<p>在线Python代码编译器：<a href="https://c.runoob.com/compile/" target="_blank" rel="noopener">https://c.runoob.com/compile/</a></p>
+<h4 id="数据库录入"><a href="#数据库录入" class="headerlink" title="数据库录入"></a>数据库录入</h4><ul>
+<li><a href="https://blog.csdn.net/Mr_blueD/article/details/79343349" target="_blank" rel="noopener">https://blog.csdn.net/Mr_blueD/article/details/79343349</a></li>
+</ul>
+<h4 id="多页爬虫"><a href="#多页爬虫" class="headerlink" title="多页爬虫"></a>多页爬虫</h4><ul>
+<li><a href="https://blog.csdn.net/zhfcmx1/article/details/71108621——单页" target="_blank" rel="noopener">https://blog.csdn.net/zhfcmx1/article/details/71108621——单页</a></li>
+<li><a href="https://blog.csdn.net/zhfcmx1/article/details/71598091——多页" target="_blank" rel="noopener">https://blog.csdn.net/zhfcmx1/article/details/71598091——多页</a><h4 id="docker部署爬虫"><a href="#docker部署爬虫" class="headerlink" title="docker部署爬虫"></a>docker部署爬虫</h4></li>
+<li><a href="https://blog.csdn.net/wang_san_shi/article/details/48178689" target="_blank" rel="noopener">使用Docker部署Scrapy爬虫</a></li>
+</ul>
+<h4 id="机器学习——TensorFlow"><a href="#机器学习——TensorFlow" class="headerlink" title="机器学习——TensorFlow"></a>机器学习——TensorFlow</h4><ul>
+<li><a href="http://www.tensorfly.cn/tfdoc/get_started/introduction.html" target="_blank" rel="noopener">TensorFlow中文社区——有示例和数据可以模仿</a></li>
+</ul>
+<h4 id="练手网站"><a href="#练手网站" class="headerlink" title="练手网站"></a>练手网站</h4><ul>
+<li><a href="http://www.xunsee.com" target="_blank" rel="noopener">http://www.xunsee.com</a></li>
+<li><a href="http://weather.sina.com.cn" target="_blank" rel="noopener">http://weather.sina.com.cn</a></li>
+</ul>
+<h2 id="数据分析-1"><a href="#数据分析-1" class="headerlink" title="数据分析"></a>数据分析</h2><ul>
+<li><a href="http://python.jobbole.com/82546/" target="_blank" rel="noopener">小 200 行 Python 代码做了一个换脸程序</a></li>
+</ul>
+<h2 id="笔记"><a href="#笔记" class="headerlink" title="笔记"></a>笔记</h2><h4 id="yield"><a href="#yield" class="headerlink" title="yield"></a>yield</h4><p><a href="https://www.ibm.com/developerworks/cn/opensource/os-cn-python-yield/" target="_blank" rel="noopener">如何理解yield含义</a></p>
+<p><a href="https://www.liaoxuefeng.com/wiki/0014316089557264a6b348958f449949df42a6d3a2e542c000/0014317799226173f45ce40636141b6abc8424e12b5fb27000" target="_blank" rel="noopener">generator对象 （可迭代对象）</a></p>
+<p><a href="https://www.liaoxuefeng.com/wiki/0014316089557264a6b348958f449949df42a6d3a2e542c000/00143178254193589df9c612d2449618ea460e7a672a366000" target="_blank" rel="noopener">iterable 对象（可迭代对象）</a></p>
+<h4 id="数据分析-2"><a href="#数据分析-2" class="headerlink" title="数据分析"></a>数据分析</h4><ul>
+<li><a href="https://zhuanlan.zhihu.com/p/23650793" target="_blank" rel="noopener">利用python进行数据分析（一）：环境搭建及准备工作</a></li>
+<li><a href="https://zhuanlan.zhihu.com/p/2365" target="_blank" rel="noopener">利用python进行数据分析（二）：一些范例数据集</a></li>
+<li><a href="https://zhuanlan.zhihu.com/p/23834454" target="_blank" rel="noopener">利用python进行数据分析（三）：一种交互式计算和开发环境IPython</a></li>
+<li><a href="https://blog.csdn.net/oh5w6hinug43jvrhhb/article/details/78796069" target="_blank" rel="noopener">Python+pandas+matplotlib数据分析与可视化案例（附源码）</a></li>
+<li><a href="https://www.cnblogs.com/jiayongji/p/7119028.html?utm_source=itdadao&amp;utm_medium=referral" target="_blank" rel="noopener">用python玩点有趣的数据分析——一元线性回归分析实例</a><br><a href="https://python.freelycode.com/contribution/detail/536" target="_blank" rel="noopener">20大Python机器学习开源项目</a><br><a href="http://www.sohu.com/a/120011660_465975" target="_blank" rel="noopener">今年(2016)GitHub排名前20的Python机器学习开源项目</a></li>
+</ul>
+<h4 id="长连接——其实是前端去控制的，后端主要提供web服务器，主要要考虑的是并发问题"><a href="#长连接——其实是前端去控制的，后端主要提供web服务器，主要要考虑的是并发问题" class="headerlink" title="长连接——其实是前端去控制的，后端主要提供web服务器，主要要考虑的是并发问题"></a>长连接——其实是前端去控制的，后端主要提供web服务器，主要要考虑的是并发问题</h4><ul>
+<li><a href="https://www.zhihu.com/question/20831000" target="_blank" rel="noopener">如何实现单服务器300万个长连接的？</a></li>
+<li><a href="http://www.cnblogs.com/xilouch/p/4618903.html" target="_blank" rel="noopener">python socket 编程之三：长连接、短连接以及心跳</a></li>
+<li>网上评论：一般来说python就tornado和gevent两个选择, 我个人觉得gevent写起来更舒服</li>
+</ul>
+<h2 id="调试"><a href="#调试" class="headerlink" title="调试"></a>调试</h2><p><a href="https://www.jianshu.com/p/5559e60d26c8?utm_campaign=maleskine&amp;utm_content=note&amp;utm_medium=pc_all_hots&amp;utm_source=recommendation" target="_blank" rel="noopener">https://www.jianshu.com/p/5559e60d26c8?utm_campaign=maleskine&amp;utm_content=note&amp;utm_medium=pc_all_hots&amp;utm_source=recommendation</a></p>
+
+      
+    </div>
+
+    <div>
+      
+        
+
+      
+    </div>
+  
+
+
+    <div>
+      
+        
+  <div style="padding: 10px 0; margin: 20px auto; width: 90%; text-align: center;">
+    <div>🐶 您的支持将鼓励我继续创作 🐶</div>
+    <button id="rewardButton" disable="enable" onclick="var qr = document.getElementById('QR'); if (qr.style.display === 'none') {qr.style.display='block';} else {qr.style.display='none'}">
+      <span>赞赏</span>
+    </button>
+    <div id="QR" style="display: none;">
+      
+        <div id="wechat" style="display: inline-block">
+          <img id="wechat_qr" src="/images/wechat-reward-img.jpg" alt="Aaron Li WeChat Pay"/>
+          <p>微信打赏</p>
+        </div>
+      
+      
+        <div id="alipay" style="display: inline-block">
+          <img id="alipay_qr" src="/images/alipay-reward-img.jpg" alt="Aaron Li Alipay"/>
+          <p>支付宝打赏</p>
+        </div>
+      
+    </div>
+  </div>
+
+
+      
+    </div>
+
+
+    <footer class="post-footer">
+        
+     <div>    
+      
+      <ul class="post-copyright">
+         <li class="post-copyright-link">
+          <strong>本文作者：</strong>
+          <a href="/" title="欢迎访问 Aaron Li 的个人博客">Aaron Li</a>
+        </li>
+
+        <li class="post-copyright-link">
+          <strong>本文标题：</strong>
+          <a href="http://yoursite.com/2018/04/18/helloword/" title=""></a>
+        </li>
+
+        <li class="post-copyright-link">
+          <strong>本文链接：</strong>
+          <a href="http://yoursite.com/2018/04/18/helloword/" title="">http://yoursite.com/2018/04/18/helloword/</a>
+        </li>
+
+        <li class="post-copyright-date">
+            <strong>发布时间：</strong>2018年4月18日 - 16时04分
+        </li>  
+
+        <li class="post-copyright-license">
+          <strong>版权声明： </strong>
+          本文由 Aaron Li 原创，采用 <a href="https://creativecommons.org/licenses/by-nc-nd/4.0/deed.zh" rel="license" target="_blank">保留署名-非商业性使用-禁止演绎 4.0-国际许可协议</a> </br>转载请保留以上声明信息！
+        </li>
+      </ul>
+    
+  </div>  
+      
+
+      
+      
+    </footer>
+  </article>
+
+
+
+    <div class="post-spread">
+      
+    </div>
+  </div>
+
+          
+          </div>
+          
+
+
+          
+  <div class="comments" id="comments">
+    
+      <div id="lv-container" data-id="city" data-uid="MTAyMC8zMjI4My84ODQ3"></div>
+    
+  </div>
+
+
+        </div>
+        
+          
+  
+  <div class="sidebar-toggle">
+    <div class="sidebar-toggle-line-wrap">
+      <span class="sidebar-toggle-line sidebar-toggle-line-first"></span>
+      <span class="sidebar-toggle-line sidebar-toggle-line-middle"></span>
+      <span class="sidebar-toggle-line sidebar-toggle-line-last"></span>
+    </div>
+  </div>
+
+  <aside id="sidebar" class="sidebar">
+    <div class="sidebar-inner">
+
+      
+
+      
+        <ul class="sidebar-nav motion-element">
+          <li class="sidebar-nav-toc sidebar-nav-active" data-target="post-toc-wrap" >
+            Table of Contents
+          </li>
+          <li class="sidebar-nav-overview" data-target="site-overview">
+            Overview
+          </li>
+        </ul>
+      
+
+      <section class="site-overview sidebar-panel">
+        <div class="site-author motion-element" itemprop="author" itemscope itemtype="http://schema.org/Person">
+          <img class="site-author-image" itemprop="image"
+               src="/images/avatar.gif"
+               alt="Aaron Li" />
+          <p class="site-author-name" itemprop="name">Aaron Li</p>
+          <p class="site-description motion-element" itemprop="description"></p>
+        </div>
+        <nav class="site-state motion-element">
+        
+          
+            <div class="site-state-item site-state-posts">
+              <a href="/archives">
+                <span class="site-state-item-count">1</span>
+                <span class="site-state-item-name">posts</span>
+              </a>
+            </div>
+          
+
+          
+
+          
+
+        </nav>
+
+        
+          <div class="feed-link motion-element">
+            <a href="/atom.xml" rel="alternate">
+              <i class="fa fa-rss"></i>
+              RSS
+            </a>
+          </div>
+        
+
+        <div class="links-of-author motion-element">
+          
+            
+              <span class="links-of-author-item">
+                <a href="https://github.com/EZLippi" target="_blank" title="GitHub">
+                  
+                    <i class="fa fa-fw fa-github"></i>
+                  
+                  GitHub
+                </a>
+              </span>
+            
+              <span class="links-of-author-item">
+                <a href="http://weibo.com/ouyanglip" target="_blank" title="weibo">
+                  
+                    <i class="fa fa-fw fa-weibo"></i>
+                  
+                  weibo
+                </a>
+              </span>
+            
+              <span class="links-of-author-item">
+                <a href="http://www.zhihu.com/people/lippi-ouyang" target="_blank" title="zhihu">
+                  
+                    <i class="fa fa-fw fa-battery-3"></i>
+                  
+                  zhihu
+                </a>
+              </span>
+            
+          
+        </div>
+
+        
+        
+
+        
+        
+          <div class="links-of-blogroll motion-element links-of-blogroll-inline">
+            <div class="links-of-blogroll-title">
+              <i class="fa  fa-fw fa-globe"></i>
+              友情链接
+            </div>
+            <ul class="links-of-blogroll-list">
+              
+                <li class="links-of-blogroll-item">
+                  <a href="http://www.woaitqs.cc/" title="Qisen Tang" target="_blank">Qisen Tang</a>
+                </li>
+              
+                <li class="links-of-blogroll-item">
+                  <a href="http://szhshp.org" title="szhshp的博客" target="_blank">szhshp的博客</a>
+                </li>
+              
+                <li class="links-of-blogroll-item">
+                  <a href="http://python.zhangwei.website" title="JuniorCoder" target="_blank">JuniorCoder</a>
+                </li>
+              
+                <li class="links-of-blogroll-item">
+                  <a href="http://hippo-jessy.com" title="Hippo" target="_blank">Hippo</a>
+                </li>
+              
+                <li class="links-of-blogroll-item">
+                  <a href="https://www.zhihu.com/people/lippi-ouyang" title="友链出租" target="_blank">友链出租</a>
+                </li>
+              
+            </ul>
+          </div>
+        
+
+        
+
+
+      </section>
+
+      
+      <!--noindex-->
+        <section class="post-toc-wrap motion-element sidebar-panel sidebar-panel-active">
+          <div class="post-toc">
+
+            
+              
+            
+
+            
+              <div class="post-toc-content"><ol class="nav"><li class="nav-item nav-level-1"><a class="nav-link" href="#Python-Learning"><span class="nav-number">1.</span> <span class="nav-text">Python_Learning</span></a><ol class="nav-child"><li class="nav-item nav-level-2"><a class="nav-link" href="#自学"><span class="nav-number">1.1.</span> <span class="nav-text">自学</span></a><ol class="nav-child"><li class="nav-item nav-level-3"><a class="nav-link" href="#开发工具"><span class="nav-number">1.1.1.</span> <span class="nav-text">开发工具</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#常用库"><span class="nav-number">1.1.2.</span> <span class="nav-text">常用库</span></a><ol class="nav-child"><li class="nav-item nav-level-4"><a class="nav-link" href="#标准库"><span class="nav-number">1.1.2.1.</span> <span class="nav-text">标准库</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#数据分析"><span class="nav-number">1.1.2.2.</span> <span class="nav-text">数据分析</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#网络数据采集"><span class="nav-number">1.1.2.3.</span> <span class="nav-text">网络数据采集</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#网站开发"><span class="nav-number">1.1.2.4.</span> <span class="nav-text">网站开发</span></a></li></ol></li></ol></li><li class="nav-item nav-level-2"><a class="nav-link" href="#爬虫项目"><span class="nav-number">1.2.</span> <span class="nav-text">爬虫项目</span></a><ol class="nav-child"><li class="nav-item nav-level-3"><a class="nav-link" href="#爬虫工具列表"><span class="nav-number">1.2.1.</span> <span class="nav-text">爬虫工具列表</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#Scrapy爬虫框架"><span class="nav-number">1.2.2.</span> <span class="nav-text">Scrapy爬虫框架</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#正则表达式"><span class="nav-number">1.2.3.</span> <span class="nav-text">正则表达式</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#github练手小项目"><span class="nav-number">1.2.4.</span> <span class="nav-text">github练手小项目</span></a><ol class="nav-child"><li class="nav-item nav-level-4"><a class="nav-link" href="#微博爬虫"><span class="nav-number">1.2.4.1.</span> <span class="nav-text">微博爬虫</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#数据库录入"><span class="nav-number">1.2.4.2.</span> <span class="nav-text">数据库录入</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#多页爬虫"><span class="nav-number">1.2.4.3.</span> <span class="nav-text">多页爬虫</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#docker部署爬虫"><span class="nav-number">1.2.4.4.</span> <span class="nav-text">docker部署爬虫</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#机器学习——TensorFlow"><span class="nav-number">1.2.4.5.</span> <span class="nav-text">机器学习——TensorFlow</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#练手网站"><span class="nav-number">1.2.4.6.</span> <span class="nav-text">练手网站</span></a></li></ol></li></ol></li><li class="nav-item nav-level-2"><a class="nav-link" href="#数据分析-1"><span class="nav-number">1.3.</span> <span class="nav-text">数据分析</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#笔记"><span class="nav-number">1.4.</span> <span class="nav-text">笔记</span></a><ol class="nav-child"><li class="nav-item nav-level-4"><a class="nav-link" href="#yield"><span class="nav-number">1.4.0.1.</span> <span class="nav-text">yield</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#数据分析-2"><span class="nav-number">1.4.0.2.</span> <span class="nav-text">数据分析</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#长连接——其实是前端去控制的，后端主要提供web服务器，主要要考虑的是并发问题"><span class="nav-number">1.4.0.3.</span> <span class="nav-text">长连接——其实是前端去控制的，后端主要提供web服务器，主要要考虑的是并发问题</span></a></li></ol></li></ol></li><li class="nav-item nav-level-2"><a class="nav-link" href="#调试"><span class="nav-number">1.5.</span> <span class="nav-text">调试</span></a></li></ol></li></ol></div>
+            
+
+          </div>
+        </section>
+      <!--/noindex-->
+      
+
+    </div>
+  </aside>
+
+
+        
+      </div>
+    </main>
+
+    <footer id="footer" class="footer">
+      <div class="footer-inner">
+        <div class="copyright" >
+  
+  &copy;  2014 - 
+  <span itemprop="copyrightYear">2018</span>
+  <span class="with-love">
+    <i class="fa fa-heart"></i>
+  </span>
+  <span class="author" itemprop="copyrightHolder">Aaron Li</span>
+</div>
+
+
+<div class="powered-by">
+  Powered by <a class="theme-link" href="https://hexo.io" rel="external nofollow">Hexo</a>
+</div>
+
+<div class="theme-info">
+  Theme -
+  <a class="theme-link" href="https://github.com/iissnan/hexo-theme-next" rel="external nofollow">
+    NexT.Mist
+  </a>| Hosted by <a href="https://pages.coding.me" style="font-weight: bold">Coding Pages</a>
+</div>
+
+
+
+
+
+        
+
+<div class="busuanzi-count">
+
+  <script async src="https://dn-lbstatics.qbox.me/busuanzi/2.3/busuanzi.pure.mini.js"></script>
+
+  
+    <span class="site-uv"><i class="fa fa-user"></i><span class="busuanzi-value" id="busuanzi_value_site_uv"></span></span>
+  
+
+  
+    <span class="site-pv"><i class="fa fa-eye"></i><span class="busuanzi-value" id="busuanzi_value_site_pv"></span></span>
+  
+  
+</div>
+
+
+
+        
+      </div>
+    </footer>
+
+    <div class="back-to-top">
+      <i class="fa fa-arrow-up"></i>
+    </div>
+  </div>
+
+  
+
+<script type="text/javascript">
+  if (Object.prototype.toString.call(window.Promise) !== '[object Function]') {
+    window.Promise = null;
+  }
+</script>
+
+
+
+
+
+
+
+
+
+  
+
+
+
+
+  
+  <script type="text/javascript" src="//cdn.jsdelivr.net/jquery/2.1.3/jquery.min.js"></script>
+
+  
+  <script type="text/javascript" src="//cdn.jsdelivr.net/fastclick/1.0.6/fastclick.min.js"></script>
+
+  
+  <script type="text/javascript" src="//cdn.jsdelivr.net/jquery.lazyload/1.9.3/jquery.lazyload.min.js"></script>
+
+  
+  <script type="text/javascript" src="//cdn.jsdelivr.net/velocity/1.2.3/velocity.min.js"></script>
+
+  
+  <script type="text/javascript" src="//cdn.jsdelivr.net/velocity/1.2.3/velocity.ui.min.js"></script>
+
+  
+  <script type="text/javascript" src="//cdn.jsdelivr.net/fancybox/2.1.5/jquery.fancybox.pack.js"></script>
+
+
+  
+
+
+  <script type="text/javascript" src="/js/src/utils.js?v=5.1.0"></script>
+
+  <script type="text/javascript" src="/js/src/motion.js?v=5.1.0"></script>
+
+
+
+  
+  
+
+  
+  <script type="text/javascript" src="/js/src/scrollspy.js?v=5.1.0"></script>
+<script type="text/javascript" src="/js/src/post-details.js?v=5.1.0"></script>
+
+
+
+  
+
+
+  <script type="text/javascript" src="/js/src/bootstrap.js?v=5.1.0"></script>
+
+
+
+  
+
+
+
+  
+
+
+
+
+	
+
+
+
+
+
+  
+
+
+
+
+
+  
+
+  
+      <!-- UY BEGIN -->
+      <script type="text/javascript" src="http://v2.uyan.cc/code/uyan.js?uid="></script>
+      <!-- UY END -->
+  
+
+
+
+  
+    <script type="text/javascript">
+      (function(d, s) {
+        var j, e = d.getElementsByTagName(s)[0];
+        if (typeof LivereTower === 'function') { return; }
+        j = d.createElement(s);
+        j.src = 'https://cdn-city.livere.com/js/embed.dist.js';
+        j.async = true;
+        e.parentNode.insertBefore(j, e);
+      })(document, 'script');
+    </script>
+  
+
+
+  
+  
+
+  
+
+  
+
+  
+  <script src="https://cdn1.lncld.net/static/js/av-core-mini-0.6.1.js"></script>
+  <script>AV.initialize("kJ2sJuSJeByLioULSXrJ5CSq-9Nh9j0Va", "uBWeNxCbFEWsOVDTmAInrDq3");</script>
+  <script>
+    function showTime(Counter) {
+      var query = new AV.Query(Counter);
+      var entries = [];
+      var $visitors = $(".leancloud_visitors");
+
+      $visitors.each(function () {
+        entries.push( $(this).attr("id").trim() );
+      });
+
+      query.containedIn('url', entries);
+      query.find()
+        .done(function (results) {
+          var COUNT_CONTAINER_REF = '.leancloud-visitors-count';
+
+          if (results.length === 0) {
+            $visitors.find(COUNT_CONTAINER_REF).text(0);
+            return;
+          }
+
+          for (var i = 0; i < results.length; i++) {
+            var item = results[i];
+            var url = item.get('url');
+            var time = item.get('time');
+            var element = document.getElementById(url);
+
+            $(element).find(COUNT_CONTAINER_REF).text(time);
+          }
+          for(var i = 0; i < entries.length; i++) {
+            var url = entries[i];
+            var element = document.getElementById(url);
+            var countSpan = $(element).find(COUNT_CONTAINER_REF);
+            if( countSpan.text() == '') {
+              countSpan.text(0);
+            }
+          }
+        })
+        .fail(function (object, error) {
+          console.log("Error: " + error.code + " " + error.message);
+        });
+    }
+
+    function addCount(Counter) {
+      var $visitors = $(".leancloud_visitors");
+      var url = $visitors.attr('id').trim();
+      var title = $visitors.attr('data-flag-title').trim();
+      var query = new AV.Query(Counter);
+
+      query.equalTo("url", url);
+      query.find({
+        success: function(results) {
+          if (results.length > 0) {
+            var counter = results[0];
+            counter.fetchWhenSave(true);
+            counter.increment("time");
+            counter.save(null, {
+              success: function(counter) {
+                var $element = $(document.getElementById(url));
+                $element.find('.leancloud-visitors-count').text(counter.get('time'));
+              },
+              error: function(counter, error) {
+                console.log('Failed to save Visitor num, with error message: ' + error.message);
+              }
+            });
+          } else {
+            var newcounter = new Counter();
+            /* Set ACL */
+            var acl = new AV.ACL();
+            acl.setPublicReadAccess(true);
+            acl.setPublicWriteAccess(true);
+            newcounter.setACL(acl);
+            /* End Set ACL */
+            newcounter.set("title", title);
+            newcounter.set("url", url);
+            newcounter.set("time", 1);
+            newcounter.save(null, {
+              success: function(newcounter) {
+                var $element = $(document.getElementById(url));
+                $element.find('.leancloud-visitors-count').text(newcounter.get('time'));
+              },
+              error: function(newcounter, error) {
+                console.log('Failed to create');
+              }
+            });
+          }
+        },
+        error: function(error) {
+          console.log('Error:' + error.code + " " + error.message);
+        }
+      });
+    }
+
+    $(function() {
+      var Counter = AV.Object.extend("Counter");
+      if ($('.leancloud_visitors').length == 1) {
+        addCount(Counter);
+      } else if ($('.post-title-link').length > 1) {
+        showTime(Counter);
+      }
+    });
+  </script>
+
+
+
+  
+<script>
+(function(){
+    var bp = document.createElement('script');
+    var curProtocol = window.location.protocol.split(':')[0];
+    if (curProtocol === 'https') {
+        bp.src = 'https://zz.bdstatic.com/linksubmit/push.js';        
+    }
+    else {
+        bp.src = 'http://push.zhanzhang.baidu.com/push.js';
+    }
+    var s = document.getElementsByTagName("script")[0];
+    s.parentNode.insertBefore(bp, s);
+})();
+</script>
+
+
+  
+
+	<!-- 页面点击小红心 -->
+<script type="text/javascript" src="/js/src/love.js"></script>
+
+</body>
+</html>
